@@ -227,7 +227,8 @@ $("div.bindstep-content").html(
 	"</div>" +
 	"</div>" +
 	"</div>"
-);
+
+)
 
 
 var gotoDoubts = function () {
@@ -490,7 +491,6 @@ var gotoDoubts = function () {
 	);
 
 }
-
 
 var gotoTutorias = function () {
 
@@ -814,7 +814,6 @@ var gotoTutorias = function () {
 
 }
 
-
 var gotoLogin = function () {
 
 	$("div.bindstep-content").html("<div class=\"row\">" +
@@ -870,7 +869,7 @@ var gotoLogin = function () {
 		"Please, sign in to your account" +
 			"<p>" +
 		"<br>" +
-		"<button class=\"btn btn-two pull\" href=\"#\" onclick=\"gotoSignUp();\">Criar Cadastro</button>" +
+		"<button class=\"btn btn-two pull\" href=\"#\" onclick=\"gotoSignUp();\">Criar Login</button>" +
 		"</center>" +
 
 	"</div>" +
@@ -980,3 +979,17 @@ var gotoSignUp = function (){
 	"</section>"
 	);
 	}
+
+var gotoCreateNew = function () {
+
+    $("div.demo-bindstep-content").html("" +
+        "" +
+        "" +
+        "" +
+        "" +
+        "");
+
+}
+
+
+
